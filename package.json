@@ -1,10 +1,10 @@
 {
   "name": "jm-common",
-  "version": "0.2.20",
+  "version": "0.2.21",
   "description": "common lib for jm-* projects",
   "main": "./lib/index",
   "scripts": {
-    "test": "node ./test.js"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
@@ -30,9 +30,5 @@
 	"lodash": "*"
   },
   "devDependencies": {
-  },
-  "readme": "jm-common\r\n=========\r\n\r\ncommon lib for jm-* projects\r\n",
-  "readmeFilename": "README.md",
-  "_id": "jm-common@0.2.0",
-  "_from": "jm-common@*"
+  }
 }
