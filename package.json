@@ -1,6 +1,6 @@
 {
   "name": "jm-common",
-  "version": "0.2.21",
+  "version": "0.2.22",
   "description": "common lib for jm-* projects",
   "main": "./lib/index",
   "scripts": {
@@ -23,12 +23,8 @@
   },
   "homepage": "https://github.com/jm-root/jm-common",
   "dependencies": {
-    "jm-dao": "*",
-    "jm-mq": "*",
-    "mongoose": "*",
-    "fs-extra": "*",
-	"lodash": "*"
-  },
-  "devDependencies": {
+    "fs-extra": "^3.0.1",
+    "jm-dao": "^0.0.6",
+    "jm-mq": "^0.2.2"
   }
 }
